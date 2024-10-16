@@ -32,7 +32,7 @@ export default function Home() {
               wxd
             </code>
 		  </p>
-          <p> wow!!! <br/> wowza! </p>
+          <p> wow!!! <br/> wowza! these are the top 10 words of FOREVER: yeah, huh, the, a, an, of, yes, etc </p>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
