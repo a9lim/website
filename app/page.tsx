@@ -6,11 +6,14 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen gap-1 p-8 font-[family-name:var(--font-serif)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-	  	<Link
+	  	<h1 className="flex text-7xl">
+		wowza
+		</h1>
+		<Link
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
             href="/horses"
           >
-		hoo
+		 hoo 
 		</Link>
 		<a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -27,7 +30,7 @@ export default function Home() {
 		</a>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-serif)]">
 	      <p>
-		    TRHE EVIL MOON!!!!!! <br/> {" "}
+		    Hi! This website is currently a work in progress. Please check back soon! <br/> {" "}
 			<code className="bg-black/[.05] dark:bg-white/[.05] px-1 py-0.5 rounded font-semibold">
               worms!!! worms!!!! aAAAAAAAAAAAA!!!!!!!
             </code>
