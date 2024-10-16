@@ -19,7 +19,7 @@ export default function Home() {
           >
           <Image
             src={srb}
-            alt="Next.js logo"
+            alt="gowza"
             width={500}
             height={500}
             priority

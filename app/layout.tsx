@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -25,21 +26,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+	  <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-		<div className="flex gap-8 flex-col gap-8 row-start-2 items-center justify-center p-1">
-		 <header className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-		   <a
-            className="border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#75715E] text-sm sm:text-base h-10 sm:h-10 px-4 sm:px-5"
-            href="https://en.wikipedia.org/wiki/Horse"
-            rel="noopener noreferrer"
-          >
+	  <div className="flex items-center justify-center">
+		<header>
+		   <nav className="flex flex-col p-2">
+		   <Link
+            className="border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#75715E] text-sm sm:text-base h-10 sm:h-10 px-5 sm:px-5"
+            href="/"
+           >
             horse pages
-          </a>
-		 </header>
+		</Link>
+		  </nav>
+		  </header>
 		</div>
-        {children}
+		{children}
       </body>
     </html>
   );
