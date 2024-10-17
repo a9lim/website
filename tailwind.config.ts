@@ -12,7 +12,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-    },
+	  animation: {
+	    "swag": "10s linear 1s infinite running slidein",
+	  },
+	  keyframes: {
+	    slidein: {
+		'0%': {transform: 'translateX(-10%)'},
+		'100%': {transform: 'translateX(110%)'},
+		},
+	  },
+	},
   },
   plugins: [],
 };
