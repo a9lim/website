@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
 import { Montserrat, Noto_Sans, Noto_Serif, Noto_Sans_Mono } from 'next/font/google'
-import styles from './global.css'
-import sf from './icon.svg';
+import sf from "./icon.svg";
 
 const montserrat = Montserrat({
   subsets: ['latin'],

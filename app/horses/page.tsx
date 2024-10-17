@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import srb from './serbianpresident.jpg';
+import srb from "./serbianpresident.jpg";
 
 export default function Home() {
   return (
@@ -23,10 +22,10 @@ export default function Home() {
           />
 		</a>
         <p>
-		    Hello! I'm Aidan Lim, a current sophmore at UCSD. I'm a
+		    Hello! I&apos;m Aidan Lim, a current sophmore at UCSD. I&apos;m a
 		 </p>
-		 <h2 className="text-5xl font-semibold"> things i've been up to </h2>
-		 <ul class="list-disc"> 
+		 <h2 className="text-5xl font-semibold"> things i&apos;ve been up to </h2>
+		 <ul className="list-disc"> 
 		 <li> lab </li>
 		 <li> gorp </li>
 		 </ul>

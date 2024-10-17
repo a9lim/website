@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import horses from "./bigflag.svg";
 
 export default function Home() {
