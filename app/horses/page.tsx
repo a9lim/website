@@ -4,7 +4,7 @@ import srb from "./serbianpresident.jpg";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-items-center min-h-screen p-16 gap-8">
-      <main className="flex flex-col gap-8 row-start-2 items-center">
+      <main className="flex flex-col gap-8 items-center">
 	  	<h1 className="text-7xl font-semibold">
 		about
 		</h1>

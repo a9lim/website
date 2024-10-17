@@ -17,8 +17,8 @@ const config: Config = {
 	  },
 	  keyframes: {
 	    slidein: {
-		'0%': {transform: 'translateX(-10%)'},
-		'100%': {transform: 'translateX(110%)'},
+		'0%': {transform: 'translateX(-10vw)'},
+		'100%': {transform: 'translateX(110vw)'},
 		},
 	  },
 	},

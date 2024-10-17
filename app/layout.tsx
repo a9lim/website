@@ -55,13 +55,13 @@ export default function RootLayout({
             className="border border-solid border-transparent flex items-center justify-center text-foreground text-lg gap-2 hover:underline hover:underline-offset-4"
             href="/"
            >
-            Home ヾ(•ω•`)o
+            home ヾ(•ω•`)o
 		</Link>
 		  </nav>
 		</header>
 		{children}
 		<footer className="fixed bottom-0 inset-x-0 flex w-screen bg-[#ffffff00] h-12">
-		   <p className="animate-swag w-screen "> ε=ε=ε=(~￣▽￣)~ </p>
+		   <p className="animate-swag"> ε=ε=ε=(~￣▽￣)~ </p>
 		  </footer>
       </body>
     </html>
