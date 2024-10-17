@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
 	  animation: {
-	    "swag": "10s linear 1s infinite running slidein",
+	    "swag": "10s linear infinite running slidein",
 	  },
 	  keyframes: {
 	    slidein: {
