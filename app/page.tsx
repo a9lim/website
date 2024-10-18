@@ -1,7 +1,7 @@
 import Image from "next/image";
 import flag from "./bigflag.svg";
-import map from "./clab5.svg";
-import hyrax from "./hyrax.jpg";
+import map from "./clab5.webp";
+import hyrax from "./hyrax.webp";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <Image
           src={hyrax}
           alt="hyrax"
-          width={500} height={50}
+          width={500} height={500}
           priority />
         <p>
           Hi! This website is currently a work in progress. Please check back soon! <br/> {" "}

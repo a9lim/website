@@ -2,30 +2,53 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
-import { Montserrat, Noto_Sans, Noto_Serif, Noto_Sans_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 import sf from "./icon.svg";
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  display: 'swap',
+const montserrat = localFont({
+  src: [
+    { 
+      path: './Montserrat-VariableFont_wght.ttf',
+      style: 'normal',
+    }, 
+    {
+      path: './Montserrat-Italic-VariableFont_wght.ttf',
+      style: 'italic',
+    },
+  ],
   variable: '--font-montserrat',
 })
  
-const noto_sans = Noto_Sans({
-  subsets: ['latin'],
-  display: 'swap',
+const noto_sans = localFont({
+  src: [
+    { 
+      path: './NotoSans-VariableFont_wdth,wght.ttf',
+      style: 'normal',
+    }, 
+    {
+      path: './NotoSans-Italic-VariableFont_wdth,wght.ttf',
+      style: 'italic',
+    },
+  ],
   variable: '--font-noto-sans',
 })
  
-const noto_serif = Noto_Serif({
-  subsets: ['latin'],
-  display: 'swap',
+const noto_serif = localFont({
+  src: [
+    { 
+      path: './NotoSerif-VariableFont_wdth,wght.ttf',
+      style: 'normal',
+    }, 
+    {
+      path: './NotoSerif-Italic-VariableFont_wdth,wght.ttf',
+      style: 'italic',
+    },
+  ],
   variable: '--font-noto-serif',
 })
 
-const noto_mono = Noto_Sans_Mono({
-  subsets: ['latin'],
-  display: 'swap',
+const noto_mono = localFont({
+  src: './NotoSansMono-VariableFont_wdth,wght.ttf',
   variable: '--font-noto-mono',
 })
  
