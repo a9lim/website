@@ -5,7 +5,7 @@ export default function Home() {
         <h1 className="text-7xl font-semibold">
           a9l.im
         </h1>
-        <p className="px-64">
+        <p className="w-5/6">
           When a friend pointed out that a9l.im was available, I realized I had to buy it. Once I started setting up the DNS, however, I realized that I didn&apos;t actually have anything to use it on. <br/>
           This website hopefully fixes that! <br/>
         </p>

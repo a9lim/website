@@ -8,7 +8,7 @@ import ph from "./phone.svg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-items-center min-h-screen p-16 gap-8">
+    <div className="flex flex-col items-center justify-items-center min-h-screen p-16 gap-2">
       <main className="flex flex-col gap-8 items-center">
         <h1 className="text-7xl font-semibold">
           contact
