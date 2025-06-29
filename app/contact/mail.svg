@@ -6,7 +6,7 @@
    version="1.1"
    id="svg2"
    sodipodi:docname="mail.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,11 +24,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="40.65"
      inkscape:cx="13.456335"
-     inkscape:cy="11.722017"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cy="11.734317"
+     inkscape:window-width="1536"
+     inkscape:window-height="884"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <title
@@ -38,14 +38,14 @@
   <g
      fill="#00af89"
      id="g2"
-     style="fill:#cad3f5;fill-opacity:1">
+     style="fill:#d20f39;fill-opacity:1">
     <path
        d="M0 8v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-10 4z"
        id="path1"
-       style="fill:#cad3f5;fill-opacity:1" />
+       style="fill:#d20f39;fill-opacity:1" />
     <path
        d="M18 2H2a2 2 0 0 0-2 2v2l10 4 10-4V4a2 2 0 0 0-2-2z"
        id="path2"
-       style="fill:#cad3f5;fill-opacity:1" />
+       style="fill:#d20f39;fill-opacity:1" />
   </g>
 </svg>

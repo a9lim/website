@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${montserrat.variable} ${noto_sans.variable} ${noto_serif.variable} ${noto_mono.variable}`}>
       <body>
-        <header className="fixed top-0 inset-x-0 flex items-center justify-center bg-[#181926dd] h-12">
+        <header className="fixed top-0 inset-x-0 flex items-center justify-center bg-[#dce0e8] h-12">
           <nav className="flex flex-row p-2 gap-2">
             <Link
               className="text-lg hover:underline hover:underline-offset-4"
@@ -87,7 +87,7 @@ export default function RootLayout({
         {children}
         <footer className="fixed bottom-0 inset-x-0 flex w-screen bg-[#ffffff00] h-12">
           <p className="animate-swag"> 
-            ε=ε=ε=(~￣▽￣)~ 
+            ε=ε=ε=(~￣▽￣)~
           </p>
         </footer>
       </body>

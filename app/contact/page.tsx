@@ -5,6 +5,11 @@ import ln from "./linkedin.svg";
 import ig from "./Instagram_Glyph_White.svg";
 import pt from "./mail.svg";
 import ph from "./phone.svg";
+const imageStyle = {
+  fill: "#d20f39",
+  stroke: "#d20f39",
+  color: "#d20f39",
+}
 
 export default function Home() {
   return (
@@ -20,7 +25,7 @@ export default function Home() {
               src={ph}
               alt="generic phone icon"
               width={25} height={25}
-              priority />
+              unoptimized />
             +1 (858) 585-1057 
           </li>
           <li> 
@@ -33,6 +38,7 @@ export default function Home() {
                 src={pt}
                 alt="generic mail icon"
                 width={25} height={25}
+                unoptimized
                 priority />
               a9lim@protonmail.com 
             </a> 
@@ -43,6 +49,7 @@ export default function Home() {
               src={dc}
               alt="discord icon"
               width={25} height={25}
+              unoptimized
               priority />
              @a9lim 
           </li>
@@ -56,6 +63,7 @@ export default function Home() {
                 src={gh}
                 alt="github icon"
                 width={25} height={25}
+                unoptimized
                 priority />
               github.com/a9lim 
               </a> 
@@ -70,7 +78,8 @@ export default function Home() {
                 src={ln}
                 alt="linkedin icon"
                 width={25} height={25}
-                priority /> 
+                unoptimized
+                priority />
               linkedin.com/in/a9lim/ 
             </a> 
           </li>
@@ -84,7 +93,8 @@ export default function Home() {
                 src={ig}
                 alt="instagram icon"
                 width={25} height={25}
-                priority /> 
+                unoptimized
+                priority />
               @a.9lim
             </a> 
           </li>
